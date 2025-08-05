@@ -1,0 +1,16 @@
+transcription_task:
+  description: >
+    Transcribe the audio from the provided video file or audio file using Whisper.
+    The transcription should be accurate and include all spoken content.
+    The file path to the video or audio is {{file_path}}.
+  expected_output: >
+    A complete and accurate transcription of the audio in the video file.
+  agent: transcriber
+
+summary_task:
+  description: >
+    Summarize the transcription of the video or audio file into a concise report.
+    The summary should highlight key points and insights from the transcription.
+  expected_output: >
+    A concise summary of the transcription, focusing on key points and insights.
+  agent: summarizer
