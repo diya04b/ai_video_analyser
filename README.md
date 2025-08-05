@@ -6,6 +6,8 @@ crewai
 crewai-tools
 openai-whisper
 
+trying to work on youtube links, works for mp4 files.
+
 
 ## Understanding Your Crew
 
